@@ -1,0 +1,182 @@
+body {
+    background-color: #2a61ad;
+    background-size: contain;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #003073), color-stop(100%, #029797));
+    background-image: -webkit-linear-gradient(135deg, #003073, #029797);
+    background-image: -moz-linear-gradient(45deg, #003073, #029797);
+    background-image: -ms-linear-gradient(45deg, #003073 0, #029797 100%);
+    background-image: -o-linear-gradient(45deg, #003073, #029797);
+    background-image: linear-gradient(135deg, #003073, #029797);
+    text-align: center;
+    position:relative;
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+}
+
+body a{
+  text-decoration: underline;
+  color: inherit;
+}
+
+
+body a:hover{
+    text-shadow: black 0 0 30px;
+    font-size:1.1em;
+    color:white;
+}
+
+
+#header{
+  height:15vh;
+  width:100%;
+  background-size:cover;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 98%);
+  z-index:1000;
+  color: white;
+	position:absolute;
+  border-bottom:1px solid #003976;
+}
+
+
+.header_content{
+  display:flex;
+  position:absolute;
+  width:100%;
+  height:16%;
+}
+
+.menu_item{
+  color:white;
+  font-size:1.2em;
+  line-height: 16vh;
+  width:24%;
+  text-align: center;
+  text-decoration:none;
+}
+
+.menu_item a{
+  text-decoration: none;
+}
+
+a:hover{
+    text-shadow: black 0 0 30px;
+    font-size:1.1em;
+    color:white;
+    cursor:pointer;
+}
+
+
+#main{
+  width:100%;
+  height:86vh;
+  position:absolute;
+  padding-top:14vh;
+  z-index:999;
+}
+
+#about{
+  width:100%;
+  padding-bottom:5em;
+  z-index:1002;
+  position: relative;
+}
+#about h1{
+  text-align:left;
+  padding-left:8vh;
+  padding-top:3em;
+  color:white;
+  font-size:2.4em;
+}
+
+#about p{
+padding-left:8vh;
+padding-right:30vh;
+color:white;
+font-size:1.3em;
+padding-top:1em;
+text-align: left;
+line-height: 2em;
+}
+
+
+#footer{
+  font-family: sans-serif;
+  width:100%;
+  text-align: left;
+  color:white;
+  font-size:1.2em;
+  border-top: 1px solid #016C88;
+}
+
+.footer_content{
+  width:100%;
+  height:auto;
+  display: flex;
+}
+
+.footer_left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  width: 30%;
+}
+
+.footer_right{
+  width:70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5em;
+
+}
+
+.desby{
+  padding-left:4em;
+  line-height:1.5em;
+}
+
+.desby a{
+  text-decoration: none;
+}
+
+.desby a:hover{
+  font-size: 1em;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+
+
+
+    .invisible{
+        display:none;
+    }
+    .payform{
+      width:100%;
+      display:flex;
+      padding-left:10%;
+      align-items: center;
+      justify-content: flex-start;
+      position: absolute;
+    }
+
+    .formItem{
+      width:20%;
+      border:1px solid black;
+      border-radius:5px;
+      height:1em;
+    }
+
+    .submitButton{
+      width:20%;
+      height:5em;
+      border:5px solid #8d19fa;
+      background: transparent;
+    }
+
+    .submitButton:hover{
+      cursor:pointer;
+      background:#cca8ed;
+    }
